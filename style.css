@@ -1,0 +1,12 @@
+:root{
+    --primeiro-branco:#FFFFFF;
+    --primeiro-roxo:#DD88FF;
+    --primeiro-botao:#D876FF;
+    --cor-de-fundo:#000000;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo); 
+    color: var(--primeiro-branco);
+}
