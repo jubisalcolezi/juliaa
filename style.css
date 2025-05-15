@@ -10,3 +10,25 @@ body{
     background-color: var(--cor-de-fundo); 
     color: var(--primeiro-branco);
 }
+h3{
+    font-size: 30px;
+    margin-top: 10px;
+    color: var(--primeiro-roxo)
+}
+.principal{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.bloco{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.bloco__botao{
+    background-color: var(--primeiro-botao);
+    border-radius: 15px;
+    padding: 1em;
+    color: var(--primeiro-branco);
+    display: block;
+}
