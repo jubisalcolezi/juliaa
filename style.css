@@ -1,3 +1,4 @@
+
 :root{
     --primeiro-branco:#FFFFFF;
     --primeiro-roxo:#DD88FF;
@@ -10,25 +11,45 @@ body{
     background-color: var(--cor-de-fundo); 
     color: var(--primeiro-branco);
 }
+h2{
+    margin: 0 4em;
+}
 h3{
     font-size: 30px;
     margin-top: 10px;
+    margin: 0 4em;
     color: var(--primeiro-roxo)
+    
 }
 .principal{
     background-image: url(image.png);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-position: center;
+    background-size: 60%;
+    border-image: 20%;
+  
 }
 .bloco{
-    height: 100vh;
+    height: 40vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 .bloco__botao{
     background-color: var(--primeiro-botao);
     border-radius: 15px;
+    margin: 4em 4em;
+    margin-top: 10;
     padding: 1em;
     color: var(--primeiro-branco);
-    display: block;
+    display:inline;
+}
+.container__titulo{
+    font-weight: 800;
+}
+.bloco__caixa{
+    margin: 0 6em;
+}
+.secudario{
+    align-items: center;
+    margin: 0 10em;
 }
