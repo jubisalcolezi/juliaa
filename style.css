@@ -59,6 +59,7 @@ h3{
 }
 .bloco__descricao{
     padding-top: 150px;
+    display:inline-block;
 }
 h3{
     margin-bottom: 40px;
