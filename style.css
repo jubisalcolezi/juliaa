@@ -37,13 +37,13 @@ h3{
 .bloco__botao{
     background-color: var(--primeiro-botao);
     border-radius: 15px;
-    margin: 4em 4em;
-    margin-top: 10;
+    margin: 0 40px 0 130px;
+    margin-top: 100px;
     padding: 1em;
     color: var(--primeiro-branco);
     display:inline;
 }
-.container__titulo{
+.bloco__titulo{
     font-weight: 800;
 }
 .bloco__caixa{
@@ -52,4 +52,20 @@ h3{
 .secudario{
     align-items: center;
     margin: 0 10em;
+}
+.secundario__imagem{
+    margin-top: 30px;
+    padding-left: 100px;
+}
+.bloco__descricao{
+    padding-top: 150px;
+}
+h3{
+    margin-bottom: 40px;
+}
+h4{
+    font: 30px;
+}
+.bloco__paragrafo{
+    font-size: 70px;
 }
